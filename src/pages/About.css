@@ -1,0 +1,55 @@
+.container-about {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+.titulo-about {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-about {
+  width: 550px;
+  height: 350px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.imagen-about img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.bio-parrafo {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+  padding: 20px 50px;
+}
+
+.titulo-about {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .imagen-about {
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
+  }
+
+  .imagen-about img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .texto-about {
+    padding: 1rem;
+  }
+}

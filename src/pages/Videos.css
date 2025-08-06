@@ -1,0 +1,40 @@
+.videos-container {
+  width: 70rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.video-box {
+  flex: 0 0 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-video {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .titulo-about {
+    margin-bottom: 1rem;
+  }
+
+  .video-box {
+    width: 90%;
+  }
+
+  .videos-container {
+    width: 80%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    padding: 1rem;
+  }
+}

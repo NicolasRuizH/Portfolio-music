@@ -1,0 +1,95 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-overlay {
+  text-align: center;
+  color: white;
+  width: 80%;
+  max-width: 700px;
+}
+
+.contact-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  padding: 1rem;
+  border: none;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
+  background: white;
+  color: black;
+}
+
+.boton-submit {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  padding: 0.7rem 2rem;
+  border: none;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: rgb(84, 119, 131);
+  color: white;
+}
+
+.contact-icons {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.status-message {
+  margin-top: 1rem;
+  color: rgb(84, 119, 131);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+/* servie ID: service_euhzcbo */
+
+/* template ID: template_c2mlxam */
+
+/* Acount-public-key: ZUHZcNBo-iTEaLK6r */
