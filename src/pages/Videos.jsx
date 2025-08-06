@@ -13,6 +13,10 @@ export const Videos = () => {
     "https://www.youtube.com/embed/iRsYEkOB3y4",
     "https://www.youtube.com/embed/6hHEHjPCRBs",
     "https://www.youtube.com/embed/90evdMwB7Sc",
+    "https://www.youtube.com/embed/4px5KpuljqQ",
+    "https://www.youtube.com/embed/sl4SRYlmXIs",
+    "https://www.youtube.com/embed/BdOBfYMAbck",
+    "https://www.youtube.com/embed/En680Ivc6H4",
   ];
 
   return (
