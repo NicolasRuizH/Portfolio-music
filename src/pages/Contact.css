@@ -43,6 +43,7 @@ textarea {
   margin: auto;
   display: flex;
   justify-content: center;
+  color: rgb(97, 97, 97);
 }
 
 textarea {
