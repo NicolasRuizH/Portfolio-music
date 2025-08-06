@@ -43,7 +43,7 @@ textarea {
   margin: auto;
   display: flex;
   justify-content: center;
-  color: rgb(97, 97, 97);
+  color: rgb(92, 92, 92);
 }
 
 textarea {
@@ -63,14 +63,6 @@ button {
 button:hover {
   background: rgb(84, 119, 131);
   color: white;
-}
-
-.contact-icons {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
 }
 
 .status-message {
