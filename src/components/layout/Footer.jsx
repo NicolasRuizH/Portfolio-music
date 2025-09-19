@@ -17,7 +17,7 @@ export const Footer = () => {
       <ul>
         <li>
           <a
-            href="https://www.instagram.com/nicolasruizz1"
+            href="https://www.instagram.com/niiqui_"
             onClick={handleInstagramClick}
             target="_blank"
             rel="noopener noreferrer"
@@ -28,7 +28,7 @@ export const Footer = () => {
 
         <li>
           <a
-            href="https://www.tiktok.com/@nicoruiz732"
+            href="https://www.tiktok.com/@niqui_r"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -38,7 +38,7 @@ export const Footer = () => {
 
         <li>
           <a
-            href="https://www.youtube.com/@nicolasruiz4407"
+            href="https://www.youtube.com/@niqui_ru"
             target="_blank"
             rel="noopener noreferrer"
           >
